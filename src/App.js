@@ -14,8 +14,6 @@ function App() {
   const [postsPerPage] = useState(10);
   const inputBar = document.querySelector('input');
 
-const page =3;
-
 
   const search = async (e) => {
     const res = await fetch(`https://api.github.com/search/users?q=${user}&page={page}`);
@@ -28,6 +26,8 @@ const page =3;
     inputBar.value = ""
   };
 
+  {console.log(users + "here")}
+  // console.log(page);
 
 
   // Get current posts
