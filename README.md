@@ -1,4 +1,4 @@
-# Simple React Pagination
+# React-Project Assesmwnt
 
 > Frontend React project
 
